@@ -40,11 +40,7 @@ nc.close();
 {% endtab %}
 
 {% tab title="Javascript" %}
-```javascript
-let nc = NATS.connect({
-    pingInterval: 20*1000, //20s
-    url: "nats://demo.nats.io:4222"
-});
+[!INCLUDE[sample include file](..developing_with_nats/intro/js.md)]
 
 ```
 {% endtab %}

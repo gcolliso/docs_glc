@@ -40,7 +40,7 @@ nc.close();
 {% endtab %}
 
 {% tab title="JS" %}
-[!INCLUDE[sample include file](..developing_with_nats/intro/js.md)]
+[!INCLUDE[sample include file](../js.md)]
 
 ```
 {% endtab %}

@@ -39,8 +39,8 @@ nc.close();
 ```
 {% endtab %}
 
-{% tab title="JS" %}
-[!INCLUDE[sample include file](../js.md)]
+{% tab title="JavaS" %}
+[!INCLUDE[sample include file](..js.md)]
 
 ```
 {% endtab %}

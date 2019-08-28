@@ -39,7 +39,7 @@ nc.close();
 ```
 {% endtab %}
 
-{% tab title="Javascript" %}
+{% tab title="JS" %}
 [!INCLUDE[sample include file](..developing_with_nats/intro/js.md)]
 
 ```
@@ -50,7 +50,7 @@ nc.close();
 
 The PING/PONG interaction is also used by most of the clients as a way to flush the connection to the server. Clients that cache outgoing messages provide a flush call that will run a PING/PONG. The flush will wait for the PONG to return, telling it that all cached messages have been processed, including the PING. The number of cached PING requests can be limited in most clients to insure that traffic problems are identified early. This configuration for _max outgoing pings_ or similar will usually default to a small number and should only be increased if you are worried about fast flush traffic, perhaps in multiple threads.
 
-For example, to set the maximum number of outgoing pings to 5:
+For example to set the maximum number of outgoing pings to 5:
 
 !INCLUDE "../../\_examples/ping\_5.html"
 

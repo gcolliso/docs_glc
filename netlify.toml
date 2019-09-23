@@ -1,5 +1,4 @@
 [build]
-publish = "docs"
 command = "make netlify-production-build"
 
 [context.deploy-preview]

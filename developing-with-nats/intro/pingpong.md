@@ -2,7 +2,7 @@
 
 The client and server use a simple PING/PONG protocol to check that they are both still connected. The client will ping the server on a regular, configured interval so that the server usually doesn't have to initiate the PING/PONG interaction.
 
-![alt text](/assets/images/pingpong.png "Ping Pong")
+![alt text](/assets/images/pingpong.svg "Ping Pong")
 
 <p align="center">
 <img src="/assets/images/pingpong.png">

@@ -294,6 +294,6 @@ Published [a.b.c.d] : 'hello'
 The subscriber as expected prints a message on the stream that it was allowed to receive:
 
 ```text
-
+[#3] Received on [help]: 'me'
 ```
 

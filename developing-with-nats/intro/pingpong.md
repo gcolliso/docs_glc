@@ -2,11 +2,9 @@
 
 The client and server use a simple PING/PONG protocol to check that they are both still connected. The client will ping the server on a regular, configured interval so that the server usually doesn't have to initiate the PING/PONG interaction.
 
-![alt text](/assets/images/pingpong.svg "Ping Pong")
+![Ping Pong](../../.gitbook/assets/pingpong.svg)
 
-<p align="center">
-<img src="/assets/images/pingpong.png">
-    </p>
+![](../../.gitbook/assets/pingpong.png)
 
 `digraph g { rankdir=LR client [shape=box, style="rounded", label="NATS Client"]; natsserver [shape=circle, fixedsize="true", width="1.0", height="1.0", label="nats-server"]; client -> natsserver [label="PING"]; natsserver -> client [label="PONG"]; }`
 
@@ -18,8 +16,7 @@ If you have a connection that is going to be open a long time with few messages 
 
 {% tabs %}
 {% tab title="Go" %}
-{% code-tabs %}
-{% code-tabs-item title="js.md" %}
+{% code title="js.md" %}
 ```go
 // Set Ping Interval to 20 seconds
 nc, err := nats.Connect("demo.nats.io", nats.Name("API Ping Example"), nats.PingInterval(20*time.Second))
@@ -31,8 +28,7 @@ defer nc.Close()
 
 // Do something with the connection
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 {% endtab %}
 
 {% tab title="Java" %}

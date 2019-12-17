@@ -46,6 +46,10 @@ To review the service export:
 ╰──────┴─────────┴─────────┴────────╯
 ```
 
+| Account Details |  |  |  |
+| :--- | :--- | :--- | :--- |
+| Name | TestAccount |  |  |
+
 ### Importing a Service
 
 Importing a service enables you to send requests to the remote _Account_. To import a Service, you have to create an _Import_. To create an import you need to know:

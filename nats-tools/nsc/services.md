@@ -50,6 +50,38 @@ To review the service export:
 | :--- | :--- | :--- | :--- |
 | Name | TestAccount |  |  |
 
+```text
+> nsc describe account
+╭──────────────────────────────────────────────────────────────────────────────────────╮
+│                                   Account Details                                    │
+├───────────────────────────┬──────────────────────────────────────────────────────────┤
+│ Name                      │ A                                                        │
+│ Account ID                │ ADETPT36WBIBUKM3IBCVM4A5YUSDXFEJPW4M6GGVBYCBW7RRNFTV5NGE │
+│ Issuer ID                 │ OAFEEYZSYYVI4FXLRXJTMM32PQEI3RGOWZJT7Y3YFM4HB7ACPE4RTJPG │
+│ Issued                    │ 2019-12-04 18:20:42 UTC                                  │
+│ Expires                   │                                                          │
+├───────────────────────────┼──────────────────────────────────────────────────────────┤
+│ Max Connections           │ Unlimited                                                │
+│ Max Leaf Node Connections │ Unlimited                                                │
+│ Max Data                  │ Unlimited                                                │
+│ Max Exports               │ Unlimited                                                │
+│ Max Imports               │ Unlimited                                                │
+│ Max Msg Payload           │ Unlimited                                                │
+│ Max Subscriptions         │ Unlimited                                                │
+│ Exports Allows Wildcards  │ True                                                     │
+├───────────────────────────┼──────────────────────────────────────────────────────────┤
+│ Imports                   │ None                                                     │
+╰───────────────────────────┴──────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────────────────────────╮
+│                          Exports                           │
+├──────┬─────────┬─────────┬────────┬─────────────┬──────────┤
+│ Name │ Type    │ Subject │ Public │ Revocations │ Tracking │
+├──────┼─────────┼─────────┼────────┼─────────────┼──────────┤
+│ help │ Service │ help    │ Yes    │ 0           │ -        │
+╰──────┴─────────┴─────────┴────────┴─────────────┴──────────╯
+```
+
 ### Importing a Service
 
 Importing a service enables you to send requests to the remote _Account_. To import a Service, you have to create an _Import_. To create an import you need to know:

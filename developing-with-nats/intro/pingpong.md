@@ -16,7 +16,7 @@ If you have a connection that is going to be open a long time with few messages 
 
 {% tabs %}
 {% tab title="Go" %}
-{% code title="js.md" %}
+{% code title="https://github.com/nats-io/go-nats-examples/blob/master/api-examples/connect_creds/main.go" %}
 ```go
 // Set Ping Interval to 20 seconds
 nc, err := nats.Connect("demo.nats.io", nats.Name("API Ping Example"), nats.PingInterval(20*time.Second))
@@ -31,7 +31,7 @@ defer nc.Close()
 {% endcode %}
 {% endtab %}
 
-{% tab title="Java" %}
+{% tab title="Java" source="https://github.com/nats-io/go-nats-examples/blob/master/api-examples/connect_creds/main.go" %}
 ```java
 Options options = new Options.Builder().
                             server("nats://demo.nats.io:4222").

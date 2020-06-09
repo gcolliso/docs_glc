@@ -4,6 +4,42 @@
 
 Developing and deploying applications and services that communicate in distributed systems can be complex and difficult. However there are two basic patterns, request/reply or RPC for services, and event and data streams. A modern technology should provide features to make this easier, scalable, secure, location independent and observable.
 
+```text
+```bash
+> nsc describe account A
+╭──────────────────────────────────────────────────────────────────────────────────────╮
+│                                   Account Details                                    │
+├───────────────────────────┬──────────────────────────────────────────────────────────┤
+│ Name                      │ A                                                        │
+│ Account ID                │ ADETPT36WBIBUKM3IBCVM4A5YUSDXFEJPW4M6GGVBYCBW7RRNFTV5NGE │
+│ Issuer ID                 │ OAFEEYZSYYVI4FXLRXJTMM32PQEI3RGOWZJT7Y3YFM4HB7ACPE4RTJPG │
+│ Issued                    │ 2019-12-04 20:19:19 UTC                                  │
+│ Expires                   │                                                          │
+├───────────────────────────┼──────────────────────────────────────────────────────────┤
+│ Max Connections           │ Unlimited                                                │
+│ Max Leaf Node Connections │ Unlimited                                                │
+│ Max Data                  │ Unlimited                                                │
+│ Max Exports               │ Unlimited                                                │
+│ Max Imports               │ Unlimited                                                │
+│ Max Msg Payload           │ Unlimited                                                │
+│ Max Subscriptions         │ Unlimited                                                │
+│ Exports Allows Wildcards  │ True                                                     │
+├───────────────────────────┼──────────────────────────────────────────────────────────┤
+│ Imports                   │ None                                                     │
+╰───────────────────────────┴──────────────────────────────────────────────────────────╯
+
+╭─────────────────────────────────────────────────────────────────────────────╮
+│                                   Exports                                   │
+├────────────────┬─────────┬────────────────┬────────┬─────────────┬──────────┤
+│ Name           │ Type    │ Subject        │ Public │ Revocations │ Tracking │
+├────────────────┼─────────┼────────────────┼────────┼─────────────┼──────────┤
+│ help           │ Service │ help           │ Yes    │ 0           │ -        │
+│ private.help.* │ Service │ private.help.* │ No     │ 0           │ -        │
+╰────────────────┴─────────┴────────────────┴────────┴─────────────┴──────────╯
+```
+
+```
+
 ### Distributed Computing Needs of Today
 
 A modern messaging system needs to support multiple communication patterns, be secure by default, support multiple qualities of service, and provide secure multi-tenancy for a truly shared infrastructure. A modern system needs to include:

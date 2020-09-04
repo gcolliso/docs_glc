@@ -353,13 +353,13 @@ This comparison features NATS, Apache Kafka, RabbitMQ, Apache Pulsar, and gRPC.
 
 ###  Integrations
 
-|   |  |
-| :--- | :--- |
-| **NATS** |  NATS supports WebSockets, a Kafka bridge, an IBM MQ Bridge, a Redis Connector, Apache Spark, Apache Flink, CoreOS, Elastic, Elasticsearch, Prometheus, Telegraf, Logrus, Fluent Bit, Fluentd, OpenFAAS, HTTP, and MQTT \(coming soon\). |
-|  **Kafka** |  Kafka has a large number of integrations in its ecosystem, including stream processing \(Storm, Samza, Flink\), Hadoop, database \(JDBC, Oracle Golden Gate\), Search and Query \(ElasticSearch, Hive\), and a variety of logging and other integrations. |
-| **Rabbit** | RabbitMQ has many plugins, including protocols \(MQTT, STOMP\), WebSockets, and various authorization and authentication plugin. |
-| **Pulsar** | Pulsar has many integrations, including ActiveMQ, Cassandra, Debezium, Flume, Elasticsearch, Kafka, Redis, and others. |
-|  **gRPC** | There are a number of third party integrations including HTTP, JSON, Prometheus, Grift and others.3 |
+|  |   |  |
+| :--- | :--- | :--- |
+| **Integrations** | **NATS** |  NATS supports WebSockets, a Kafka bridge, an IBM MQ Bridge, a Redis Connector, Apache Spark, Apache Flink, CoreOS, Elastic, Elasticsearch, Prometheus, Telegraf, Logrus, Fluent Bit, Fluentd, OpenFAAS, HTTP, and MQTT \(coming soon\). |
+|  |  **Kafka** |  Kafka has a large number of integrations in its ecosystem, including stream processing \(Storm, Samza, Flink\), Hadoop, database \(JDBC, Oracle Golden Gate\), Search and Query \(ElasticSearch, Hive\), and a variety of logging and other integrations. |
+|  | **Rabbit** | RabbitMQ has many plugins, including protocols \(MQTT, STOMP\), WebSockets, and various authorization and authentication plugin. |
+|  | **Pulsar** | Pulsar has many integrations, including ActiveMQ, Cassandra, Debezium, Flume, Elasticsearch, Kafka, Redis, and others. |
+|  |  **gRPC** | There are a number of third party integrations including HTTP, JSON, Prometheus, Grift and others.3 |
 
 ### References
 

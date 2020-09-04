@@ -1,4 +1,8 @@
-# Feature Comparison
+---
+description: 'NATS Comparison to Kafka, Rabbit, gRPC, and others'
+---
+
+# Compare NATS
 
 This feature comparison is a summary of a few of the major components in several of the popular messaging technologies of today. This is by no means an exhaustive list and each technology should be investigated thoroughly to decide which will work best for your implementation.
 
@@ -344,9 +348,11 @@ This comparison features NATS, Apache Kafka, RabbitMQ, Apache Pulsar, and gRPC.
 
 ### Management
 
-|  **NATS** |  NATS separates operations from security. User and Account management in a deployment may be decentralized and managed through a CLI. Server \(network element\) configuration is separated from security with a command line and configuration file which can be reloaded with changes at runtime. |
+|   |  |
 | :--- | :--- |
+| **NATS** | NATS separates operations from security. User and Account management in a deployment may be decentralized and managed through a CLI. Server \(network element\) configuration is separated from security with a command line and configuration file which can be reloaded with changes at runtime. |
 |  **Kafka** |  Kafka has a number of management tools and consoles including Confluent Control Center, Kafka, Kafka Web Console, Kafka Offset Monitor. |
+| **Rabbit** |  |
 |  **Rabbit** |  CLI tools, a plugin-based management system with dashboards and third-party tools. |
 |  **Pulsar** |  CLI tools, per-topic dashboards, and third-party tools. |
 |  **gRPC** |  External components such as a service mesh are required to manage gRPC. |

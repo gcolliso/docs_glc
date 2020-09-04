@@ -871,6 +871,106 @@ NATS supports the Adaptive Edge architecture which allows for large, flexible de
             There are a number of third party integrations including HTTP, JSON, Prometheus, Grift and others.<sup>3</sup>
         </td>
     </tr>
+    </table>
+    
+## Management   
+
+   <table>
+    <tr>     
+        <td><b>
+            NATS
+            </b>
+        </td>
+        <td>
+            NATS separates operations from security.  User and Account management in a deployment may be decentralized and managed through a CLI.  Server (network element) configuration is separated from security with a command line and configuration file which can be reloaded with changes at runtime.
+        </td>
+    </tr>
+    <tr>
+        <td><b>
+            Kafka
+            </b>
+        </td>
+        <td>
+            Kafka has a number of management tools and consoles including Confluent Control Center, Kafka, Kafka Web Console, Kafka Offset Monitor.
+        </td>
+    </tr>
+    <tr>
+        <td><b>
+            Rabbit
+            </b>
+        </td>
+        <td>
+            CLI tools, a plugin-based management system with dashboards and third-party tools.
+        </td>
+    </tr>
+    <tr>
+        <td><b>
+            Pulsar
+            </b>
+        </td>
+        <td>
+            CLI tools, per-topic dashboards, and third-party tools.
+        </td>
+    </tr>
+    <tr>
+        <td><b>
+            gRPC
+            </b>
+        </td>
+        <td>
+            External components such as a service mesh are required to manage gRPC.
+        </td>
+    </tr>
+   </table>
+  
+  ## Integrations
+
+<table>
+    <tr>
+          <td><b>
+            NATS
+            </b>
+        </td>
+        <td>
+            NATS supports WebSockets, a Kafka bridge, an IBM MQ Bridge, a Redis Connector, Apache Spark, Apache Flink, CoreOS, Elastic, Elasticsearch, Prometheus, Telegraf, Logrus, Fluent Bit, Fluentd, OpenFAAS, HTTP, and MQTT (coming soon).
+        </td>
+    </tr>
+    <tr>
+        <td><b>
+            Kafka
+            </b>
+        </td>
+        <td>
+            Kafka has a large number of integrations in its ecosystem, including stream processing (Storm, Samza, Flink), Hadoop, database (JDBC, Oracle Golden Gate), Search and Query (ElasticSearch, Hive), and a variety of logging and other integrations.
+        </td>
+    </tr>
+    <tr>
+        <td><b>
+            Rabbit
+            </b>
+        </td>
+        <td>
+            RabbitMQ has many plugins, including protocols (MQTT, STOMP), WebSockets, and various authorization and authentication plugins.
+        </td>
+    </tr>
+    <tr>
+        <td><b>
+            Pulsar
+            </b>
+        </td>
+        <td>
+            Pulsar has many integrations, including ActiveMQ, Cassandra, Debezium, Flume, Elasticsearch, Kafka, Redis, and others.
+        </td>
+    </tr>
+    <tr>
+        <td><b>
+            gRPC
+            </b>
+        </td>
+        <td>
+            There are a number of third party integrations including HTTP, JSON, Prometheus, Grift and others.<sup>3</sup>
+        </td>
+    </tr>
     
 </table>
 <h3>References</h3>

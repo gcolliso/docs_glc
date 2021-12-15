@@ -177,3 +177,7 @@
   * [Developing a Client](nats-protocol/nats-protocol/nats-client-dev.md)
 * [NATS Cluster Protocol](nats-protocol/nats-server-protocol.md)
 
+## Legacy
+
+* [Stan Legacy](https://nats-io.gitbook.io/jnm-nats-new-docs/)
+
